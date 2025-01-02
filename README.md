@@ -14,3 +14,15 @@ yarn install
 
 Don't forget to update the project name in `project.json`, adjust the README,
 etc.
+
+### Maintaining this template
+
+Dependencies should be periodically updated using
+
+```
+yarn upgrade-interactive
+```
+
+Remember not to check in changes to `yarn.lock`. The `.gitignore` file should be
+usable out of the box, and downstream projects likely _will_ want to commit this
+file, so this file has to be excluded manually.
