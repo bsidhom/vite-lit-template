@@ -1,0 +1,11 @@
+{
+    "extends": "@tsconfig/strictest/tsconfig.json",
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": ["ES2022", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "moduleResolution": "Bundler"
+    },
+    "include": ["./*.ts", "src/**/*.ts"],
+    "exclude": ["dist", "node_modules"]
+}
